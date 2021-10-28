@@ -57,3 +57,26 @@ FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
 );
 
 SELECT * FROM salaries;
+
+SELECT first_name, last_name
+FROM employees
+WHERE birth_date BETWEEN '1952-01-01' AND '1955-12-31';
+
+--Employee count by department number
+SELECT COUNT(ce.emp_no), de.dept_no
+FROM current_emp as ce
+LEFT JOIN dept_emp as de
+ON ce.emp_no=de.emp_no
+GROUP BY de.dept_no
+ORDER BY de.dept_no;
+
+--SKILL DRILL
+CREATE TABLE employee_count_dept AS (
+	SELECT COUNT(ce.emp_no), de.dept_no
+	FROM current_emp as ce
+	LEFT JOIN dept_emp as de
+	ON ce.emp_no=de.emp_no
+	GROUP BY de.dept_no
+	ORDER BY de.dept_no);
+
+SELECT * FROM employee_count_dept;
