@@ -176,3 +176,26 @@ ON (ce.emp_no=de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no=d.dept_no);
 		
+--Skill Drill for sales team
+DROP TABLE sales_info;
+CREATE TABLE sales_info As (
+SELECT de.emp_no,
+	de.first_name,
+	de.last_name,
+	de.dept_name
+FROM dept_info AS de
+WHERE de.dept_name='Sales');
+
+SELECT * FROM sales_info;
+
+--Skill Drill for sales and development teams
+DROP TABLE s_d_info;
+CREATE TABLE s_d_info AS(
+SELECT de.emp_no,
+	de.first_name,
+	de.last_name,
+	de.dept_name
+FROM dept_info AS de
+WHERE de.dept_name IN ('Sales','Development'));
+
+SELECT * FROM s_d_info;
