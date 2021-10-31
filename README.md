@@ -38,6 +38,6 @@ With the current conditions used to define elegibility in the mentorship program
 
 ![retirement_count](/Queries/retirement_count.png)
 
-
+All in all, with 90,398 potential retirements in the near future Pewlett-Hackard needs to start preparing. The senior engineer and senior staff positions need to take priority, with the majority of potenital vacancies happening in these two titles. The mentorship program needs to be extended by a large amount to make sure there are enough qualified employees in the next generation. There is a lot of valuble knowledge and experience that is likely to leave in the near future. It is critical that there is a well designed system to transfer as much knowledge as possible, from senior to junior employees, to mitigate the risk to Pewlett-Hackard. 
 
 
