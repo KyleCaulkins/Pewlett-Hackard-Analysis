@@ -60,5 +60,6 @@ INNER JOIN titles AS t
 		AND (de.to_date='9999-01-01')
 ORDER BY e.emp_no;
 
-SELECT * FROM mentorship_eligibility;
+SELECT COUNT (emp_no) FROM mentorship_eligibility;
 
+SELECT COUNT (emp_no) FROM unique_titles;
