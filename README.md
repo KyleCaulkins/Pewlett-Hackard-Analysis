@@ -36,6 +36,7 @@ With the current conditions used to define elegibility in the mentorship program
 
 ## Summary
 
+![retirement_count](/Queries/retirement_count.png)
 
 
 
