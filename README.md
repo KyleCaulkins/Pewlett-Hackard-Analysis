@@ -25,11 +25,16 @@ Only two managers were found to be in the likely to retire category. This raises
 
 ![mentorship_eligibility](/Queries/mentorship_eligibility.png)
 
+A list was created to target employees who could participate in a mentorship program. These individuals are from various departments within the company. This list can be given to managers to see if the candidates would like to participate in the program. These individuals have some experience but are not as likely to retire as soon as the majority of the baby boomers. 
 
 
 * Finding 4
 
+![mentorship_eligibility1](/Queries/mentorship_eligibility1.png)
 
+With the current conditions used to define elegibility in the mentorship program, there are 1,549 individuals targeted. This is not enough to fill the potential vacancies. The conditionts to select individuals for the program needs to be expanded.
+
+## Summary
 
 
 
