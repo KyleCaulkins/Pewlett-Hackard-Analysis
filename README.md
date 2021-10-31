@@ -17,15 +17,21 @@ The number of employees that are likely to retire is significant, especially in 
 
 * Finding 2
 
+![retiring_titles1](/Queries/retiring_titles1.png)
 
+Only two managers were found to be in the likely to retire category. This raises a flag to look further into how the data was gathered. Management is typically a more senior role and to only have two retiring requires further questioning. Do most managers not have "Manager" in their titles? If the titles do not include the word manager, but the role does require leading others, how can we target these individuals? Are the managers actually younger than many of the engineers and staffers? If so, maybe a bigger question needs to be asked about company culture and why our senior members are not advancing to management roles? This is possibly a significant finding and requires more investigation.
 
 * Finding 3
+
+![mentorship_eligibility](/Queries/mentorship_eligibility.png)
+
+
 
 * Finding 4
 
 
-![unique_titles](/Queries/unique_titles.png)
 
 
 
-![mentorship_eligibility](/Queries/mentorship_eligibility.png)
+
+
